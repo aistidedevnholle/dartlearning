@@ -86,7 +86,7 @@ main(List<String> args) {
 
   var note1 = 12;
   do {
-    note1 = note1 + 1;
+    note1 = note1 + 2;
     b++;
   } while (b < a);
 

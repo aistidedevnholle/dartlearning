@@ -10,6 +10,25 @@ main(List<String> args) {
   final String myName = 'ALEX';
   const int myConst = 8;
 
+  //DEFINIR UNE LIST ET UNE MAP AVEC CONST ET FINAL
+
+  //List
+  const myConstantList =
+      []; // APRES AVOIR DEFINI UNE CONSTANTE ON NE PEUT PLUS CHANGER LES VALUES NI DEFINIR LA VARIABLE UNE SECONDE FOIS
+
+  print(myConstantList);
+
+  final List myList = [
+    1,
+    8
+  ]; //YOU CAN ADD VALUE IN FINAL LIST VARIABLE BUT YOU MUST TO DEFINED IT ONCE
+
+  myList.add('47');
+
+  //MAP
+  const map = {};
+  final Map map2 = {};
+
   var name = "Alex";
 
   String firstName = 'Alex';
